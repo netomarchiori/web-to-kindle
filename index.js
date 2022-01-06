@@ -21,7 +21,7 @@ express()
 
     await browser.close();
 
-    await convert('/tmp/screenshot.png');
+    //await convert('/tmp/screenshot.png');
     screenshot = fs.readFileSync('/tmp/screenshot.png');
 
     res.writeHead(200, {
